@@ -1,0 +1,2 @@
+product_id,location_id,on_hand,reserved,incoming,safety_stock,daily_demand
+1,1,250,20,50,30,18

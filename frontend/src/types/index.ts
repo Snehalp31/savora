@@ -1,0 +1,2 @@
+export type KPI={label:string;value:string|number;detail:string;icon:string};
+export type InventoryRow={id:number;product_name:string;sku:string;category:string;location_id:number;location_name:string;batch_id:string;on_hand:number;reserved:number;incoming:number;safety_stock:number;daily_demand:number;price:number;unit_cost:number;days_to_deadline:number;batch_status:string;handling_verified:boolean};

@@ -1,0 +1,26 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Python cache and tests
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Generated ML artifacts
+backend/artifacts/
+
+# Local databases
+*.sqlite3
+*.db
